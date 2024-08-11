@@ -1,0 +1,5 @@
+package priorityque
+
+func InitPriorityQueue() {
+
+}

@@ -1,0 +1,21 @@
+pipeline{
+    agent any
+    parameters {
+        booleanParam(defaultValue: true,description: " Testing ", name:"name")
+    }
+    environment {
+         myName="Rahul Chaube "
+         age="Rahul"
+    }
+    stages{
+        stage("Demo"){
+            steps {
+                myFunc("Hellop World ${env.myName} and age is ${env.age} ${params.name}")
+            }
+        }
+    }
+}
+
+def myFunc(String mytext){
+    echo " ${mytext} "
+}

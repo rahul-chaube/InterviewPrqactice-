@@ -1,0 +1,15 @@
+go 1.22.3
+
+use (
+	./ArrayInterViewQuestion
+	./DataStructure
+	./DesignPattern
+	./GoErrorGroup
+	./GoRoutineDesignPattern
+	./Goroutine
+	./JWTDemo
+	./RestAPIDemo
+	./UniqueSortedSet
+	./basic
+	./developer-joyofenergy-golang
+)

@@ -1,0 +1,13 @@
+pipeline{
+    agent any
+    parameters {
+        booleanParam(defaultValue: false, description: " Testing params ",name: "myBoolean")
+    }
+    stages{
+        stage("A"){
+            steps{
+                echo "========executing A======== : ${params.myBoolean}"
+            }
+        }
+    }
+}
