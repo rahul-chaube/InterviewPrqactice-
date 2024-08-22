@@ -8,8 +8,10 @@ use (
 	./GoRoutineDesignPattern
 	./Goroutine
 	./JWTDemo
+	./Leetcode
 	./RestAPIDemo
 	./UniqueSortedSet
 	./basic
+	./book
 	./developer-joyofenergy-golang
 )
