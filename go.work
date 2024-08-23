@@ -13,5 +13,6 @@ use (
 	./UniqueSortedSet
 	./basic
 	./book
+	./commandLine
 	./developer-joyofenergy-golang
 )
